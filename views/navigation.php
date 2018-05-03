@@ -7,7 +7,7 @@
           <i class="sidebar icon"></i>
         </a>
         <a class="active item">Home</a>
-        <a class="item">Contact us</a>
+        <a href="<?=build_url(['page' => 'contact_us'])?>" class="item">Contact us</a>
         <a class="item">About us</a>
         <div class="right item">
           <a href="<?=build_url(['page' => 'login'])?>" class="ui inverted button">Log in</a>
