@@ -14,6 +14,6 @@ if (!$email || !$phone || !$message) {
 $db = new Database();
 $db->insert('contacts', ['name' => $name, 'email' => $email, 'phone' => $phone, 'message' => $message ]);
 
-redirect(build_url(['page' => 'contact', 'success' => 'Message was sent to support personal. You will be replayed in few moments.']));
+redirect(build_url(['page' => 'contact_us', 'success' => 'Message was sent to support personal. You will be replayed in few moments.']));
 
 ?>
