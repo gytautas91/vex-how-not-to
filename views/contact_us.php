@@ -9,6 +9,7 @@
     </h2>
     <form action="/contact.php" method="post" class="ui large form">
         <?= error() ?>
+      <?= success() ?>
       <div class="ui stacked segment">
           <div class="field">
             <div class="ui left icon input">
